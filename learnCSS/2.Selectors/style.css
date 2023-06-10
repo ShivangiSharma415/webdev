@@ -1,0 +1,33 @@
+/* * {
+    font-family: 'Georgia';
+} */
+
+body {
+    font-size: 24px;
+} /* element selector */
+
+p:hover {
+    font-family: monospace;
+} /* pseudo selector*/
+
+
+/* #first>p {
+    color: green;
+} nested selector */
+
+
+#first, #second {
+    color: blueviolet;
+} /* grouping selector */
+
+
+.red {
+    color: brown;
+} /* class selector */
+
+.highlight {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+/* specificity order id>class>element */
